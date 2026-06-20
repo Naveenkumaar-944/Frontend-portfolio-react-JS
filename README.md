@@ -1,16 +1,105 @@
-# React + Vite
+# Frontend Portfolio React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built using **React JS** and **Vite** to showcase my projects, technical skills, certifications, and contact information.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 **Portfolio Website**
+https://Naveenkumaar-944.github.io/Frontend-portfolio-react-JS/
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Repository Link
+https://github.com/Naveenkumaar-944/Frontend-portfolio-react-JS
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Responsive portfolio design
+* About Me section
+* Skills section
+* Projects showcase
+* Certifications section
+* Contact section
+* Smooth hover effects and animations
+* Mobile responsive layout
+
+## Tech Stack
+
+**Frontend**
+
+* React JS
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+**Tools**
+
+* Vite
+* Git
+* GitHub
+* GitHub Pages
+
+## Project Structure
+
+Frontend-portfolio-react-JS
+│
+├── src
+│   ├── Components
+│   ├── Assets
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public
+├── package.json
+├── vite.config.js
+└── README.md
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Naveenkumaar-944/Frontend-portfolio-react-JS.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+Build project
+
+```bash
+npm run build
+```
+
+Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+## Future Improvements
+
+* Dark mode support
+* Better mobile responsiveness
+* Add backend contact form
+* Improve UI animations
+
+## Author
+
+**NaveenKumaar**
+
+GitHub:
+https://github.com/Naveenkumaar-944
+
+## License
+
+This project is open source and available for learning purposes.
