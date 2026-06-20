@@ -1,0 +1,472 @@
+body{
+    background-color: #0f172a;
+    color: #f8fafc;
+    margin: 0;
+    height: auto;
+    letter-spacing: 1.5;
+}
+/* Header css*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #1e293b;
+    padding: 10px 30px;
+}
+
+#h2{
+    display: inline;
+}
+
+#hul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link:hover{
+    color: #3b82f6;
+    border: 1px solid #334155;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+#hh2{
+    margin: 0;
+}
+
+.nav-link{
+    padding: 5px;
+    background-color: rgb(1, 4, 69);
+    color: rgb(249, 249, 249);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#home{
+    margin-top: 20px;
+}
+
+/* Hero css */
+
+#Hh1{
+    text-align: center;
+    color: rgb(250, 249, 249);
+    font-weight: 500;
+}
+
+.img-con{
+    display: flex;
+    justify-content: center;
+    padding: 10px 45px;
+}
+
+.profile-img{
+    width: 200px;          
+    height: 200px;
+    border-radius: 50%;  
+    object-fit: cover;   
+    transition: 0.3s ease;
+}
+
+.img-con:hover .profile-img{
+    box-shadow: 
+        0 0 10px lightseagreen,
+        0 0 20px lightseagreen,
+        0 0 40px lightseagreen;
+    transform: translateY(-3px);
+}
+
+#hh1{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+#hh3{
+    display: flex;
+    justify-content: center;
+}
+
+#hp{
+    top: 0;
+    background-color: #1e293b;
+    padding: 10px 45px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    transition: 0.3s ease;
+    margin-top: 0;
+}
+
+.kw{
+    color: white;              
+    font-weight: normal;
+    transition: all 0.3s ease;
+}
+
+#hp:hover .kw{
+    text-shadow:
+        0 0 5px lightseagreen,
+        0 0 10px rgba(255,255,255,0.4);
+    text-transform: uppercase;
+}
+
+#hp:hover{
+        box-shadow: 
+        -4px 6px 12px rgba(32, 178, 170, 0.35);
+}
+
+#heroh3{
+    text-align: center;
+    font-size: 25px;
+}
+
+#hp:hover #heroh3{
+    text-decoration: underline;
+    font-size: 35px;
+}
+/* About Me CSS*/
+
+.about{
+    background-color: #1e293b;
+    padding: 10px 45px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.abh{
+    color: white;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.about:hover .abh{
+    text-decoration: underline;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-shadow:
+        0 0 5px lightseagreen;
+}
+.about:hover{
+    box-shadow: 
+        -4px 6px 12px rgba(32,178,170,0.35);
+}
+
+.ab{
+    transition: 0.3s ease;
+}
+
+.inpad{
+    padding: 10px 50px;  
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 12px;
+    color: white;
+    background-color: #334155;
+}
+.inpad:hover{
+    box-shadow: 
+        -4px 6px 12px rgba(32,178,170,0.35);
+    transform: translateY(-3px);
+}
+.inpad:hover .ab{
+    text-transform: uppercase;
+    text-shadow:
+        0 0 5px lightseagreen;
+}
+
+/*Skills CSS*/
+.skills{
+    background-color: #1e293b;
+    padding: 10px 45px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 20px auto;
+    color: white;
+}
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.skill-box{
+    width: 180px; 
+    height: 80px;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #334155;
+    border-radius: 18px;
+    transition: all 0.3s ease;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.skill-box:hover{
+    box-shadow:
+        0 0 10px lightseagreen;
+
+    transform: translateY(-3px);
+    text-transform: uppercase;
+    text-shadow:
+        0 0 5px lightseagreen,
+        0 0 10px rgba(255,255,255,0.4);
+}
+
+.skills:hover{
+    box-shadow: 
+        -4px 6px 12px rgba(32,178,170,0.35);
+}
+#sh3{
+    font-size: 25px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.skills:hover #sh3{
+    text-shadow:
+        0 0 5px lightseagreen,
+        0 0 10px rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 35px;
+}
+/*Projects CSS*/
+.projects{
+    background-color: #1e293b;
+    padding: 10px 45px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    transition: all 0.3s ease;
+}
+.ph2{
+    color: white;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.projects:hover .ph2{
+    text-shadow:
+        0 0 5px lightseagreen,
+        0 0 10px rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.projects:hover{
+    box-shadow: 
+        -4px 6px 12px rgba(32,178,170,0.35);
+    transform: translateY(-3px);
+}
+
+.ph3{
+    transition: 0.3s ease;
+}
+
+.projects:hover .ph3{
+    text-shadow:
+        0 0 5px lightseagreen;
+    text-transform: uppercase;
+}
+
+.pj{
+    padding: 10px 50px;  
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 12px;
+    color: white;
+    background-color: #334155;
+}
+.pj:hover{
+    box-shadow: 
+        -4px 6px 12px rgba(32,178,170,0.35);
+    transform: translateY(-3px);
+}
+/*Certifications CSS*/
+
+.cert{
+    background-color: #1e293b;
+    padding: 10px 45px;      
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.ch2{
+    color: white;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cert:hover .ch2{
+    text-shadow:
+        0 0 5px lightseagreen,
+        0 0 10px rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.cert:hover{
+    box-shadow:
+        -4px 6px 12px rgba(32,178,170,0.35),
+        0 0 20px rgba(32,178,170,0.20),
+        0 0 35px rgba(32,178,170,0.10);
+    transform: translateY(-2px);
+}
+
+.cert-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cli{
+    background-color: #334155;
+    padding: 8px 12px;          
+    width: 80%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgba(32,178,170,0.15);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.cli:hover{
+    box-shadow:
+        0 0 10px lightseagreen,
+        0 0 18px rgba(32,178,170,0.25);
+    transform: translateY(-3px) scale(1.02);
+    text-transform: uppercase;
+    text-shadow:
+        0 0 5px lightseagreen;
+}
+
+/* Contact CSS */
+.Contact{
+    background-color: #1e293b;
+    padding: 10px 45px;        
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.Contact:hover{
+    box-shadow:
+        -4px 6px 12px rgba(32,178,170,0.35),
+        0 0 20px rgba(32,178,170,0.20);
+    transform: translateY(-2px);
+}
+
+.cont{
+    transition: all 0.3s ease;
+    font-size: 25px;
+}
+
+.Contact:hover .cont{
+    text-shadow:
+        0 0 5px lightseagreen,
+        0 0 10px rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 30px;
+    flex-wrap: wrap;    
+}
+
+.contact-links a{
+    background-color: #334155;
+    padding: 10px 18px;     
+    border-radius: 15px;
+    border: 1px solid rgba(32,178,170,0.15);
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-links a:hover{
+    color: lightseagreen;
+    box-shadow:
+        0 0 10px lightseagreen,
+        0 0 18px rgba(32,178,170,0.25);
+    transform: translateY(-3px) scale(1.03);
+    text-transform: uppercase;
+    text-shadow:
+        0 0 5px lightseagreen;
+}
+
+/*Footer CSS*/
+.Footer{
+    background-color: #1e293b;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+    color: #cbd5e1;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.Footer hr{
+    border: none;
+    border-top: 1px solid rgba(32,178,170,0.15);
+    margin-bottom: 12px;
+}
+
+.Footer:hover{
+    box-shadow:
+        0 0 10px rgba(32,178,170,0.15);
+}
