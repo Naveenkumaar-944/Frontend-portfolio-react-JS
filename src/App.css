@@ -470,3 +470,19 @@ nav{
     box-shadow:
         0 0 10px rgba(32,178,170,0.15);
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
