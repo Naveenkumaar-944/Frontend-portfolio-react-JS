@@ -3,7 +3,7 @@ function Header(){
     return(
         <div className="Navbar">
         <nav>
-            <h2 id="hh2">PORTFOLIO</h2>
+            <h2 id="hh2">NAVEENKUMAAR</h2>
             <ul id="hul">
                 <li><a href="#home" className="nav-link">Home</a></li>
                 <li><a href="#aboutme" className="nav-link">About</a></li>
